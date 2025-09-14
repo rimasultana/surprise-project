@@ -1,20 +1,22 @@
 import React from "react";
 import AutoConfetti from "./AutoConfetti";
-import { motion } from "framer-motion"; 
+import { motion } from "framer-motion";
+
+import img1 from "../assets/images/1.jpg";
+import img2 from "../assets/images/2.jpg";
+import img3 from "../assets/images/3.jpg";
+import img4 from "../assets/images/4.jpg";
+import img5 from "../assets/images/5.jpg";
+import img6 from "../assets/images/6.jpg";
+import img7 from "../assets/images/7.jpg";
+import img8 from "../assets/images/8.jpg";
+import img9 from "../assets/images/9.jpg";
+import img10 from "../assets/images/10.jpg";
+import img11 from "../assets/images/11.jpg";
+import img12 from "../assets/images/12.jpg";
 
 const partyImages = [
-  "../../public/images/10.jpg",
-  "../../public/images/2.jpg",
-  "../../public/images/3.jpg",
-  "../../public/images/4.jpg",
-  "../../public/images/5.jpg",
-  "../../public/images/6.jpg",
-  "../../public/images/7.jpg",
-  "../../public/images/8.jpg",
-  "../../public/images/9.jpg",
-  "../../public/images/1.jpg",
-  "../../public/images/11.jpg",
-  "../../public/images/12.jpg",
+  img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12
 ];
 
 const containerVariants = {
