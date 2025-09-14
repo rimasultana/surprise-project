@@ -1,14 +1,14 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router"; 
+import { NavLink } from "react-router";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   const links = [
     { name: "Home", path: "/" },
-    { name: "About", path: "/about" },
-    { name: "Gallery", path: "/gallery" },
-    { name: "Contact", path: "/contact" },
+    { name: "BirthDay Wish", path: "/birthdaywish" },
+    { name: "Memory", path: "/partygallery" },
+    { name: "Special Memory", path: "/specialgallery" },
   ];
 
   const activeClass =

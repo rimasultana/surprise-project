@@ -2,7 +2,9 @@ import React from "react";
 import { createBrowserRouter } from "react-router";
 import MainLayout from "../MainLayout/MainLayout";
 import Home from "../components/Home";
-import Gallery from "../components/Gallery";
+import PartyGallery from "../components/PartyGallery";
+import SpecialGallery from "../components/SpecialGallery";
+import BirthdayWish from "../components/BirthdayWish";
 
 const router = createBrowserRouter([
   {
@@ -11,10 +13,19 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       {
-        path: "/gallery",
-        element: <Gallery />,
+        path: "/partygallery",
+        element: <PartyGallery />,
+      },
+      {
+        path: "/specialgallery",
+        element: <SpecialGallery />,
+      },
+      {
+        path: "/birthdaywish",
+        element: <BirthdayWish />,
       },
     ],
   },
 ]);
+
 export default router;
